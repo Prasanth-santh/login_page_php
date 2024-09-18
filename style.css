@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overall{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    width: 300px;
+    padding: 30px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.form_register input{
+    margin: 10px 0;
+    height: 30px;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
+.form_register1 input{
+    height: 20px;
+    padding:0 5px;
+    margin: 0 0 10px;
+}
+.welcome{
+    background-color: aquamarine;
+    padding: 20px;
+}
+.welcome h2{
+    margin: 10px 0;
+}
+form{
+    background-color: cadetblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
